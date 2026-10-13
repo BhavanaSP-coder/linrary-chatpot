@@ -1,16 +1,51 @@
-# Library Chatbot
+# 📖 Library Chatbot
 
-Find a good next read and get quick answers about this demo library.
+> Explore a sample book catalog and get quick answers to common library questions.
 
-## Run it
+A browser-based prototype for a library discovery assistant. Search sample books by title, author, or genre, or ask about example opening hours and borrowing rules.
 
-Open `index.html` in a modern browser. No installation, API key, or internet connection is required.
+## ✨ Features
 
-## Contents
+- **Book search** — matches queries against a small sample catalog.
+- **Library FAQs** — responds to basic hours and borrowing questions.
+- **Clear demo labels** — identifies sample catalog and policy information.
+- **No setup required** — runs directly in your browser.
 
-- `index.html` — app markup and demo behavior
-- `style.css` — responsive styling
+## 🚀 Run the app
 
-## Notes
+1. Download and extract the project.
+2. Open `index.html` in a modern web browser.
+3. Try searches such as `science`, `mystery`, or `Project Hail Mary`.
+4. Ask about `opening hours` or `borrowing`.
 
-This is a self-contained front-end demo. It stores no personal data and makes no network requests. Replace sample information and add a backend/API integration if you want production data or AI-generated responses. The travel planner produces illustrative itinerary suggestions, not live travel information.
+No installation, API key, server, or internet connection is required.
+
+## 🧰 Built with
+
+- HTML
+- CSS
+- Vanilla JavaScript
+
+## 📁 Project files
+
+| File | Purpose |
+|---|---|
+| `index.html` | App interface, sample catalog, and demo behavior |
+| `style.css` | Responsive visual styling |
+| `README.md` | Project overview and instructions |
+
+## ⚙️ How it works
+
+The app searches a hard-coded catalog and uses simple rules to recognize a few common questions. It does not connect to a library database or generate answers with an AI model.
+
+## 🔭 Ideas for the next version
+
+- Connect to a real library catalog and circulation API.
+- Add relevance ranking, filters, and typo-tolerant search.
+- Show live availability with a last-updated time.
+- Add accessibility and keyboard-navigation checks.
+- Test search behavior and API error states.
+
+## ⚠️ Prototype limitations
+
+Book listings and library policies are sample data. Search uses basic text matching; it does not show real-time availability or current library rules. Replace the sample information before using this for patrons.
